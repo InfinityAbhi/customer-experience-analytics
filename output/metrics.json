@@ -1,0 +1,75 @@
+{
+  "dataset": "ExploreMyData generated survey-response sample (CC0)",
+  "source_url": "https://exploremydata.com/datasets/survey-responses",
+  "source_sha256": "5a72234f7cceec2138acf9b1f0a306c133a0fecf0b952bacc7e9101446b3ffa4",
+  "response_count": 1000,
+  "unique_id_count": 1000,
+  "score_band_mismatches": 0,
+  "date_range": [
+    "2026-01-06T00:00:00+00:00",
+    "2026-07-04T19:40:48+00:00"
+  ],
+  "overall": {
+    "responses": 1000,
+    "nps": -63.6,
+    "csat_top_two_pct": 15.1,
+    "commented_responses": 538
+  },
+  "segment_metrics": [
+    {
+      "segment": "Enterprise",
+      "responses": 150,
+      "nps": -70.7,
+      "csat_top_two_pct": 8.7
+    },
+    {
+      "segment": "Self-serve",
+      "responses": 179,
+      "nps": -67.6,
+      "csat_top_two_pct": 14.0
+    },
+    {
+      "segment": "Trial",
+      "responses": 181,
+      "nps": -61.9,
+      "csat_top_two_pct": 12.7
+    },
+    {
+      "segment": "Churned",
+      "responses": 166,
+      "nps": -61.4,
+      "csat_top_two_pct": 18.7
+    },
+    {
+      "segment": "Education",
+      "responses": 159,
+      "nps": -60.4,
+      "csat_top_two_pct": 18.9
+    },
+    {
+      "segment": "Team",
+      "responses": 165,
+      "nps": -60.0,
+      "csat_top_two_pct": 17.6
+    }
+  ],
+  "top_detractor_themes": [
+    [
+      "Undo discoverability",
+      127
+    ],
+    [
+      "Large-file speed",
+      122
+    ],
+    [
+      "File crash",
+      113
+    ]
+  ],
+  "limitations": [
+    "Generated sample responses, not observed customers or business performance.",
+    "Comments are optional, repetitive and selected from score-linked phrase pools.",
+    "Descriptive segment differences are not causal effects or implemented improvements."
+  ]
+}
